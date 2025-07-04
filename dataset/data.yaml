@@ -1,0 +1,12 @@
+path: "/Users/vladislavbaanov/Desktop/practice/dataset"
+train: images/train
+val: images/val
+
+names:
+  0: Task 22
+  1: Task 23
+  2: Task 24
+  3: Task 25
+  4: Task 26
+  5: Task 27
+  6: Task 28
