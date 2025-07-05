@@ -42,8 +42,8 @@ def train(model, loader, optimizer, criterion, epoch):
         loss.backward()
         optimizer.step()
         print(f"Epoch: {epoch} Loss: {loss.item():4f}")
-        # if batch_idx % 100 == 0:
-        #     print(f"Epoch: {epoch} Loss: {loss.item():4f}")
+        if batch_idx % 100 == 0:
+            print(f"Epoch: {epoch} Loss: {loss.item():4f}")
 
 
 for epoch in range(1,6):
